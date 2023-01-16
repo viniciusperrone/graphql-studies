@@ -1,0 +1,12 @@
+{
+  "name": "graphql-studies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/viniciusperrone/graphql-studies.git",
+  "author": "Vinicius Perrone <perronevinicius2018@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0"
+  }
+}
