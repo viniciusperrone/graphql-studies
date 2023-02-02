@@ -6,11 +6,13 @@
   "author": "Vinicius Perrone <perronevinicius2018@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon -r sucrase/register src/index.js"
+    "dev": "nodemon -r sucrase/register src/index.js",
+    "server": "json-server --watch db.json"
   },
   "dependencies": {
     "apollo-server": "^3.11.1",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
+    "json-server": "^0.17.1"
   },
   "devDependencies": {
     "eslint": "^8.32.0",
